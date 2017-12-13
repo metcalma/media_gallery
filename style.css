@@ -149,7 +149,9 @@ tu
   grid-row: 3 / 6;
 }
 */
-
+video { /*-- sets the width of video elements to 100% of parent width --*/
+  width: 100%;
+}
 
 /*-- Styles for slideshow --*/
 
