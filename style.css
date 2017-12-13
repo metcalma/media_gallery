@@ -25,7 +25,7 @@
 }
 
 nav{
-  background-color: #27FFED;
+  background-color: #997E55;
   padding: .2em;
   text-align: center;
   font-size: 18px;
@@ -51,13 +51,15 @@ body {
   font: 1.4em Sansita, sans-serif;
 }
 .card {
-  background-color: #FF6E27;
+  background-color: #FF8346;
   position: relative; /*-- positions each card so children can be positioned --*/
   padding: 8px; /*-- small space inside each card--*/
   margin-bottom: 1em;
+  border-radius: 5px;
 }
 
 video {
+  border-radius: 5px;
   width: 150%;
 }
 
@@ -67,36 +69,42 @@ video {
   padding-bottom: 60%; /*-- creates space below the image--*/
   background-size: cover; /*-- sets it to cover the div --*/
   background-position: center center; /*-- positions image in center vert. and horiz. --*/
+  border-radius: 5px;
 }
 .thumb2 { /*-- card images --*/
   background-image: url('pix/img02.jpg'); /*-- sets background image --*/
   padding-bottom: 60%; /*-- creates space below the image--*/
   background-size: cover; /*-- sets it to cover the div --*/
   background-position: center center; /*-- positions image in center vert. and horiz. --*/
+  border-radius: 5px;
 }
 .thumb3 { /*-- card images --*/
   background-image: url('pix/img03.jpg'); /*-- sets background image --*/
   padding-bottom: 60%; /*-- creates space below the image--*/
   background-size: cover; /*-- sets it to cover the div --*/
   background-position: center center; /*-- positions image in center vert. and horiz. --*/
+  border-radius: 5px;
 }
 .thumb4 { /*-- card images --*/
   background-image: url('pix/img04.jpg'); /*-- sets background image --*/
   padding-bottom: 60%; /*-- creates space below the image--*/
   background-size: cover; /*-- sets it to cover the div --*/
   background-position: center center; /*-- positions image in center vert. and horiz. --*/
+  border-radius: 5px;
 }
 .thumb5 { /*-- card images --*/
   background-image: url('pix/img05.jpg'); /*-- sets background image --*/
   padding-bottom: 60%; /*-- creates space below the image--*/
   background-size: cover; /*-- sets it to cover the div --*/
   background-position: center center; /*-- positions image in center vert. and horiz. --*/
+  border-radius: 5px;
 }
 .thumb6 { /*-- card images --*/
   background-image: url('pix/img06.jpg'); /*-- sets background image --*/
   padding-bottom: 60%; /*-- creates space below the image--*/
   background-size: cover; /*-- sets it to cover the div --*/
   background-position: center center; /*-- positions image in center vert. and horiz. --*/
+  border-radius: 5px;
 }
 .link {
   position: absolute; /*-- sets button position to absolute --*/
@@ -115,20 +123,20 @@ video {
 }
 
 .video {
-  grid-column: 1 /6;
+  grid-column: 3 /10;
   grid-row: 3 / 6;
 }
 .highlight {
   grid-column: 3 / 10;
-  grid-row: 1 /3
+  grid-row: 1 /2
 }
 .one {
   grid-column: 1 / 3;
-  grid-row: 1 /2
+  grid-row: 1 /1;
 }
 .two {
   grid-column: 1 / 3;
-  grid-row: 2 / 3;
+  grid-row: 2 / 2;
 }
 .three {
   grid-column: 8 / 9;
