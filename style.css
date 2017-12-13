@@ -196,10 +196,12 @@ video {
   margin: auto; /*-- simple centering method--*/
   margin-top: 2em; /*-- adds space above--*/
   max-width: 1440px; /*-- contrains slideshow on largest screens --*/
+
 }
 .slideshow-wrapper img {
   width: 100%; /*-- makes slideshow responsive in size --*/
   height: 800px;
+  border-radius: 5px;
 }
 .prev, .next {
   cursor: pointer; /*-- changes hover cursor to the hand --*/
